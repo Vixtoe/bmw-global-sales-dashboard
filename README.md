@@ -32,15 +32,3 @@ An executive-grade Power BI sales intelligence dashboard built to analyze global
 * Data Transformation & Modeling: DAX & Power Query
 * Data Analysis: Python (Pandas)
 * Version Control: Git & GitHub
-
----
-
-## Author Profile
-
-Chanoudom Tann (Victor)  
-Undergraduate Student in Electrical & Data Engineering  
-Faculty of Engineering, Thammasat University  
-
-* Email: [Your Email Address]
-* LinkedIn: [Your LinkedIn Profile URL]
-* GitHub: [Your GitHub Profile URL]
