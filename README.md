@@ -1,7 +1,11 @@
 # BMW Global Sales & Revenue Intelligence Dashboard (2010–2024)
 
-An executive-grade Power BI sales intelligence dashboard built to analyze global market performance, regional revenue distribution, and powertrain adoption across BMW vehicle lines.
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
+An executive-grade Power BI sales intelligence dashboard built to analyze global market performance, regional revenue distribution, and powertrain adoption across BMW vehicle lines.
 ---
 
 ## Executive Dashboard Preview
