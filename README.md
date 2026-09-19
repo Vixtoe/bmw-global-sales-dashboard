@@ -1,77 +1,46 @@
-# BMW Sales Classification & Analysis
+# BMW Global Sales & Revenue Intelligence Dashboard (2010–2024)
 
-> Machine learning modeling and exploratory data analysis on 50,000 global BMW sales records (2010–2024) to predict sales performance and evaluate regional purchasing behaviors.
-
----
-
-## Project Overview
-
-This project analyzes a dataset of 50,000 BMW sales records spanning 2010 to 2024. The objective is twofold: build machine learning classification models to categorize sales performance (`High` vs. `Low`) based on vehicle specifications, and perform exploratory data analysis to evaluate hypotheses regarding regional car color preferences and engine sizing.
+An executive-grade Power BI sales intelligence dashboard built to analyze global market performance, regional revenue distribution, and powertrain adoption across BMW vehicle lines.
 
 ---
 
-## Key Questions & Hypotheses
+## Executive Dashboard Preview
 
-* **Sales Classification Performance:** Can vehicle specifications (Engine Size, Transmission, Fuel Type, Price) accurately predict binary sales volume tiers (`High` vs. `Low`)?
-* **Regional Preference Hypothesis:** Does vehicle exterior color significantly impact sales volumes across different global markets and regions?
-* **Model Evaluation:** What are the benchmark classification metrics (Accuracy, Precision, Recall, F1-Score) across predictive algorithms?
+![BMW Executive Dashboard](dashboard_preview.png)
 
 ---
 
-## Dataset Overview
+## Key Features & Business Insights
 
-The dataset contains 50,000 global transaction entries across 11 features:
-
-* **Vehicle Attributes:** `Model` (e.g., 3 Series, 5 Series, 7 Series, X3, M5, i8), `Color`, `Fuel_Type` (Petrol, Diesel, Hybrid, Electric), `Transmission` (Manual, Automatic), `Engine_Size_L` (Cylinder displacement in Liters).
-* **Usage & Commercials:** `Year` (2010–2024), `Mileage_KM`, `Price_USD`, `Sales_Volume`.
-* **Geographic & Tiers:** `Region` (Asia, Europe, North America, South America, Middle East), `Sales_Classification` (`High`, `Low`).
-
----
-
-## Machine Learning & Analytical Workflow
-
-1. **Exploratory Data Analysis (EDA):** Feature distribution analysis across engine sizes, transmission types, and global region-color cross-tabulations.
-2. **Data Preprocessing & Normalization:** Categorical encoding for region, fuel type, and transmission; numerical feature scaling on mileage, price, and engine displacement.
-3. **Model Development:** Supervised classification modeling evaluating feature importance and classification metrics.
-4. **Hypothesis Testing:** Statistical evaluation of regional preferences and feature correlations with overall sales tiers.
+* Executive KPI Banner: Tracks core business metrics at a glance, including Total Sales Volume (253M units), Average Deal Batch Revenue ($380.24M), and Average Vehicle List Price ($75.03K).
+* Regional Revenue Breakdown: Evaluates market performance across 6 global sales regions (Asia, Europe, North America, Middle East, South America, Africa).
+* Powertrain & Model Analytics: Visualizes delivery volume across BMW series models sliced by engine/drivetrain technology (Electric, Hybrid, Petrol, Diesel).
+* Dynamic Time Slicing: Interactive year-tile selector enabling seamless timeline navigation from 2010 through 2024.
 
 ---
-## Dataset & Resources
 
-* **Dataset File:** [`data/BMW sales data (2010-2024).csv`](BMW_sales_data_(2010-2024).csv) (50,000 global transaction records).
-* **Presentation Deck:** [View Presentation Slides (PDF)](BMW_Project.pdf)
+## Data Validation & Metric Logic
+
+* Dataset Scale: 50,000 global transaction batch records.
+* Commercial Sanity Check: Standardized aggregation logic by identifying macro-batch recording structures in synthetic dataset revenue logs. Adjusted default total sums to Average Deal Batch Revenue ($380.24M) to maintain real-world commercial accuracy and executive-level metric validity.
 
 ---
 
 ## Tech Stack & Tools
 
-* **Language:** Python
-* **Data Processing & Analysis:** Pandas, NumPy
-* **Machine Learning:** Scikit-Learn (Classification, Preprocessing, Evaluation Metrics)
-* **Visualization:** Matplotlib, Seaborn
-* **Data Source:** BMW Global Sales Dataset (2010–2024)
+* Business Intelligence: Power BI Service / Desktop
+* Data Transformation & Modeling: DAX & Power Query
+* Data Analysis: Python (Pandas)
+* Version Control: Git & GitHub
 
 ---
 
-## Team & Individual Contributions
+## Author Profile
 
-* **Team Members:** Chanoudom Tann (Me), Apivit Denpruktham
-* **My Individual Role & Contributions:**
-  * Cleaned and preprocessed the 50K-record dataset, handling categorical feature encodings and scaling.
-  * Implemented machine learning classification algorithms to predict sales classification tiers.
-  * Conducted feature importance analysis and produced visualization plots for presentation deliverables.
+Chanoudom Tann (Victor)  
+Undergraduate Student in Electrical & Data Engineering  
+Faculty of Engineering, Thammasat University  
 
----
-
-## Project Structure
-
-```text
-bmw-sales-classification/
-├── docs/
-│   ├── presentation.pdf
-│   └── eda-charts/
-├── notebooks/
-│   └── sales_classification_analysis.ipynb
-├── data/
-│   └── bmw_sales_2010_2024.csv
-└── README.md
+* Email: [Your Email Address]
+* LinkedIn: [Your LinkedIn Profile URL]
+* GitHub: [Your GitHub Profile URL]
