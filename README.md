@@ -23,11 +23,11 @@ An interactive Power BI dashboard that gives a commercial team one view of globa
 
 ## Key Findings
 
-* **Revenue is evenly distributed across all 6 regions** (Asia, Europe, North America, Middle East, South America, Africa), with no single region above **[X]%** of total revenue.
-* **Powertrain mix:** **[e.g. Electric/Hybrid share moved from X% in 2010 to Y% in 2024]**.
-* **Model performance:** **[e.g. the top 3 of 11 models account for X% of volume]**.
-* **Recommendation:** **[one sentence on what a sales or market-strategy team could do with this]**.
-
+* **Revenue is evenly distributed across all 6 regions** (Asia, Europe, North America, Middle East, South America, Africa), with no single region dominating.
+* **Volume is balanced across 11 models:** each model holds 8.8-9.4% of units, and the top 3 (7 Series, i8, X1) account for 27.9%.
+* **Powertrain mix is stable from 2010 to 2024:** Diesel, Electric, Hybrid and Petrol each hold roughly a quarter of units, so Electric + Hybrid stays near 50% throughout.
+* **Recommendation:** with no region, model or fuel type driving the portfolio, a sales team's growth levers are likely to be market-specific (pricing, targeting, product launches) rather than a rebalancing of the existing mix.
+  
 ## Features
 
 * **Executive KPI banner:** total sales volume, average deal batch revenue and average list price at a glance.
