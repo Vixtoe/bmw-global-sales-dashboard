@@ -1,4 +1,4 @@
-# BMW Global Sales & Revenue Intelligence Dashboard (2010-2024)
+# BMW Sales & Revenue Dashboard (2010-2024)
 
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge)
