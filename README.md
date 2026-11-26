@@ -29,7 +29,7 @@ An interactive Power BI dashboard that gives a commercial team one view of globa
 
 ## Data
 
-**Source:** https://www.kaggle.com/datasets/y0ussefkandil/bmw-sales2010-2024, 50,000 records, 2010–2024.
+**Source:** https://www.kaggle.com/datasets/y0ussefkandil/bmw-sales2010-2024, 50,000 records, 2010–2024. Dataset by Youssef Kandil, licensed CC0 (public domain).
 
 **Data note:** each row is a batch of vehicles, not a single car. Summing raw columns overstates real volumes, so headline metrics use averages per record and shares rather than raw totals.
 
@@ -54,6 +54,7 @@ An interactive Power BI dashboard that gives a commercial team one view of globa
 
 ## Limitations & Next Steps
 
+* The dataset appears to be synthetic, with near-uniform distributions across regions, models, and price ranges. Findings describe this file, not the real BMW market.
+* Absolute volumes aren't comparable to BMW's reported figures. The dashboard is for analysis practice, not financial reporting.
 * The published dashboard reflects an earlier data load, so its figures may not match the processed file in this repo exactly.
-* The dataset is public and batch-based, so absolute volumes aren't comparable to BMW's reported figures. The dashboard is for analysis practice, not financial reporting.
 * Possible extensions: YoY growth and forecast views, a targets-vs-actuals page, row-level security by region.
