@@ -50,11 +50,11 @@ An interactive Power BI dashboard that gives a commercial team one view of globa
 1. Clone the repository.
 2. Install dependencies: `pip install pandas`
 3. Run `python process_bmw.py` to generate `data/bmw_digital_sales_2010_2024.csv`.
-4. Optionally, open `bmw_sales_dashboard.pbix` in Power BI Desktop and point its data source to that file.
+4. Optionally, open `BMW_Global_Sales_Executive_Dashboard.pbix` in Power BI Desktop. It loads the earlier data load, so run step 3 to see the processed data.
 
 ## Limitations & Next Steps
 
 * The dataset appears to be synthetic, with near-uniform distributions across regions, models, and price ranges. Findings describe this file, not the real BMW market.
 * Absolute volumes aren't comparable to BMW's reported figures. The dashboard is for analysis practice, not financial reporting.
-* The published dashboard reflects an earlier data load, so its figures may not match the processed file in this repo exactly.
+* The published dashboard and the included .pbix reflect an earlier data load, so their figures may not match the processed file in this repo exactly.
 * Possible extensions: YoY growth and forecast views, a targets-vs-actuals page, row-level security by region.
