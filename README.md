@@ -29,7 +29,7 @@ An interactive Power BI dashboard that gives a commercial team one view of globa
 
 ## Data
 
-**Source:** [paste dataset URL], 50,000 records, 2010–2024.
+**Source:** [https://www.kaggle.com/datasets/y0ussefkandil/bmw-sales2010-2024], 50,000 records, 2010–2024.
 
 **Data note:** each row is a batch of vehicles, not a single car. Summing raw columns overstates real volumes, so headline metrics use averages per record and shares rather than raw totals.
 
@@ -44,7 +44,7 @@ An interactive Power BI dashboard that gives a commercial team one view of globa
 
 * Power Query handles the load and type cleanup.
 * DAX measures: Total Sales Volume, Average Batch Revenue, Regional Revenue Share %, Powertrain Share %.
-* Single fact table with a Date dimension. [Confirm this matches your model view.]
+* Single fact table with a Date dimension.
 
 ## Run It Locally
 
