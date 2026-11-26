@@ -29,7 +29,7 @@ An interactive Power BI dashboard that gives a commercial team one view of globa
 
 ## Data
 
-**Source:** [https://www.kaggle.com/datasets/y0ussefkandil/bmw-sales2010-2024], 50,000 records, 2010–2024.
+**Source:** https://www.kaggle.com/datasets/y0ussefkandil/bmw-sales2010-2024, 50,000 records, 2010–2024.
 
 **Data note:** each row is a batch of vehicles, not a single car. Summing raw columns overstates real volumes, so headline metrics use averages per record and shares rather than raw totals.
 
@@ -38,21 +38,22 @@ An interactive Power BI dashboard that gives a commercial team one view of globa
 | Total Sales Volume | Sum of `Sales_Volume` across all records |
 | Average Vehicle Price | Mean `Price_USD` per vehicle ($75.03K) |
 
-**Cleaning (Python / Pandas):** [paste only the steps your code actually performs]
+**Processing (Python / Pandas):** `process_bmw.py` adds a `Total_Revenue` column (`Price_USD × Sales_Volume`), renames `Model` to `Vehicle_Model`, and saves the output to `data/bmw_digital_sales_2010_2024.csv`.
 
 ## Data Model & Measures
 
-* Power Query handles the load and type cleanup.
+* Power Query loads the processed CSV into a single table.
 * DAX measures: Total Sales Volume, Average Batch Revenue, Regional Revenue Share %, Powertrain Share %.
-* Single fact table with a Date dimension.
 
 ## Run It Locally
 
 1. Clone the repository.
-2. Open `bmw_sales_dashboard.pbix` in Power BI Desktop.
-3. If prompted, point the data source to `data/bmw_sales_data.csv`.
+2. Install dependencies: `pip install pandas`
+3. Run `python process_bmw.py` to generate `data/bmw_digital_sales_2010_2024.csv`.
+4. Optionally, open `bmw_sales_dashboard.pbix` in Power BI Desktop and point its data source to that file.
 
 ## Limitations & Next Steps
 
+* The published dashboard reflects an earlier data load, so its figures may not match the processed file in this repo exactly.
 * The dataset is public and batch-based, so absolute volumes aren't comparable to BMW's reported figures. The dashboard is for analysis practice, not financial reporting.
 * Possible extensions: YoY growth and forecast views, a targets-vs-actuals page, row-level security by region.
